@@ -1,0 +1,50 @@
+"use client";
+
+import React from "react";
+import SectionHeading from "./section-heading";
+import { motion } from "framer-motion";
+import { useSectionInView } from "@/src/lib/hooks";
+
+export default function About() {
+  const { ref } = useSectionInView("A propos");
+
+  return (
+    <motion.section
+      ref={ref}
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+      id="about"
+    >
+      <SectionHeading>A propos</SectionHeading>
+      <p className="mb-3">
+        Après avoir obtenu un diplôme de baccalauréat,{" "}
+        {/* <span className="font-medium">Accounting</span>,  */}
+        j'ai décidé de poursuivre ma passion pour la programmation et
+        j'ai obtenu un diplôme de Master en informatique option génie logiciel.
+        Je me suis inscrit à divers sites pour apprendre encore plus.{" "}
+        {/* <span className="font-medium">full-stack web development</span>.{" "} */}
+        <span className="italic">Ce que je préfère dans la programmation,{" "}</span>
+        c'est l'aspect résolution de problèmes. <span className="underline">J' aime </span>
+        le sentiment d'enfin comprendre trouver une solution à un problème.
+        <span className="font-medium">{" "}
+          React, Next.js, Node.js, Nest.js font partie de mes compétences. {" "}
+        </span>
+        Je suis également famillié avec java vert.x et android.
+        Je cherche toujours à apprendre de nouvelles technologies. {" "}
+        Je suis actuellement à la recherche d'un  {" "}
+        <span className="font-medium">poste horaire</span> en tant que développeur web ou mobile
+      </p>
+
+      <p>
+        <span className="italic">Quand je ne code pas</span>, J'aime lire des livres
+        et écrire, mais surtout voyager, faire des randonnées{" "}
+        <span className="font-medium">J'aime aussi apprendre de nouvelles choses</span>.
+        J'apprends actuellement{" "}
+        <span className="font-medium"> l'histoire et la philosophie.</span>.
+        Et j'apprend également l'anglais afin de me perfectionner
+      </p>
+    </motion.section>
+  );
+}
