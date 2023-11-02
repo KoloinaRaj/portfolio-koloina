@@ -7,6 +7,8 @@ import { useSectionInView } from "@/src/lib/hooks";
 import { sendEmail } from "@/src/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -32,11 +34,12 @@ export default function Contact() {
       <SectionHeading>Contactez moi</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        vous pouvez me contacter directement sur{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          cathyliantsoa9@gmail.com
+        Vous pouvez me contacter directement sur{" "} <br/>
+        <a className="underline" href="mailto:cathyliantsoa9@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} />{" "}
+          <span>cathyliantsoa9@gmail.com</span>
         </a>{" "}
-        ou au +261 32 85 123 57
+        ou au <br/><FontAwesomeIcon icon={faPhone} /> +261 32 85 123 57.
       </p>
 
       {/* <form
