@@ -88,7 +88,7 @@ export const projectsData = [
     title: "Système de reservation et paiement en ligne",
     description:
       "Intégration sur le back-office d'un restaurateur (Suisse), intégration d'un module de paiement stripe",
-    tags: ["React.js", "Next.js", "Node.js", "Nest.js"],
+    tags: ["React.js", "Next.js", "Node.js", "Nest.js", "stripe"],
     imageUrl: rmtdevImg,
   },
   {
