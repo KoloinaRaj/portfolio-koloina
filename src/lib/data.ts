@@ -95,7 +95,7 @@ export const projectsData = [
     title: "Site internet FAPBM",
     description:
       "Développement d'une carte interactive en react.js en montrant les aires protégées de Madagascar et l'intégrant dans le site FAPBM sous wordpress",
-    tags: ["React", "Wordpress"],
+    tags: ["React", "Wordpress", "OpenStreetMap"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
