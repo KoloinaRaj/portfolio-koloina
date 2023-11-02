@@ -23,7 +23,7 @@ export default function About() {
         {/* <span className="font-medium">Accounting</span>,  */}
         j'ai décidé de poursuivre ma passion pour la programmation et
         j'ai obtenu un diplôme de Master en informatique option génie logiciel.
-        Je me suis inscrit à divers sites pour apprendre encore plus.{" "}
+        Je me suis inscrite à divers sites pour apprendre encore plus.{" "}
         {/* <span className="font-medium">full-stack web development</span>.{" "} */}
         <span className="italic">Ce que je préfère dans la programmation,{" "}</span>
         c'est l'aspect résolution de problèmes. <span className="underline">J' aime </span>
@@ -38,12 +38,12 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">Quand je ne code pas</span>, J'aime lire des livres
+        <span className="italic">En dehors de la programmation</span>, J'aime lire des livres
         et écrire, mais surtout voyager, faire des randonnées{" "}
         <span className="font-medium">J'aime aussi apprendre de nouvelles choses</span>.
-        J'apprends actuellement{" "}
+        Actuellement, j'étudie{" "}
         <span className="font-medium"> l'histoire et la philosophie.</span>.
-        Et j'apprend également l'anglais afin de me perfectionner
+        Et je travaille à perfectionner mon anglais
       </p>
     </motion.section>
   );
