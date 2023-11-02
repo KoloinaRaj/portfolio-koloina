@@ -36,10 +36,10 @@ export default function Contact() {
         <a className="underline" href="mailto:example@gmail.com">
           cathyliantsoa9@gmail.com
         </a>{" "}
-        ou complétez cette forme.
+        ou au +261 32 85 123 57
       </p>
 
-      <form
+      {/* <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -68,7 +68,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }
