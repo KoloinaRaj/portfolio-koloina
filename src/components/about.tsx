@@ -42,7 +42,7 @@ export default function About() {
         et écrire, mais surtout voyager, faire des randonnées{" "}
         <span className="font-medium">J'aime aussi apprendre de nouvelles choses</span>.
         Actuellement, j'étudie{" "}
-        <span className="font-medium"> l'histoire et la philosophie.</span>.
+        <span className="font-medium"> l'histoire et la philosophie.</span>
         Et je travaille à perfectionner mon anglais
       </p>
     </motion.section>
