@@ -22,12 +22,12 @@ export default function About() {
         Après avoir obtenu un diplôme de baccalauréat,{" "}
         {/* <span className="font-medium">Accounting</span>,  */}
         j'ai décidé de poursuivre ma passion pour la programmation et
-        j'ai obtenu un diplôme de Master en informatique option génie logiciel.
-        Je me suis inscrite à divers sites pour apprendre encore plus.{" "}
+        j'ai obtenu un diplôme de Master en informatique avec une spécialisation en génie logiciel.
+        Je me suis inscrite à divers sites  pour continuer à apprendre d'avantage.{" "}
         {/* <span className="font-medium">full-stack web development</span>.{" "} */}
         <span className="italic">Ce que je préfère dans la programmation,{" "}</span>
         c'est l'aspect résolution de problèmes. <span className="underline">J' aime </span>
-        le sentiment d'enfin comprendre trouver une solution à un problème.
+        le sentiment de finalement comprendre et de trouver une solution à un problème.
         <span className="font-medium">{" "}
           React, Next.js, Node.js, Nest.js font partie de mes compétences. {" "}
         </span>
