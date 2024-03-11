@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "Développement d'une application mobile applicative sous android natif.",
     icon: React.createElement(CgWorkAlt),
-    date: "2016 - 2017",
+    date: "2017 - 2018",
   },
   {
     title: "Développeur fullstack et chef de projet",
