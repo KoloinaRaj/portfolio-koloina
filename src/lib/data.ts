@@ -69,18 +69,18 @@ export const experiencesData = [
     date: "2019 - 2022",
   },
   {
-    title: "Développeur fullstackJs",
+    title: "Développeur fullstack",
     location: "Freelance",
     description:
-      "J'ai travaillé comme développeur fullstack freelance, utilisant une stack comprenant React: Next.js, Node.js: Nest.js et PostgreSQL. ",
+      "J'ai travaillé comme développeur fullstack en freelance, utilisant une stack comprenant React: Next.js, Node.js: Nest.js et PostgreSQL. ",
     icon: React.createElement(FaReact),
     date: "2022 - 2024",
   },
   {
-    title: "Développeur fullstackJs",
+    title: "Développeur fullstack",
     location: "Nuklear",
     description:
-      "Je suis maintenant un développeur fullstack travaillant chez Nuklear. Mon stack comprend React: Next.js, Node.js: Nest.js, et Hubspot. Je suis ouvert aux opportunités à temps plein.",
+      "Je suis maintenant un développeur fullstack chez Nuklear. Mon stack comprend React: Next.js, Node.js: Nest.js, et Hubspot. Je suis ouvert aux opportunités à temps plein.",
     icon: React.createElement(FaReact),
     date: "2024 - à présent",
   },
