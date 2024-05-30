@@ -3,8 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import oke from "@/public/okeee.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import fapbm from "@/public/fapbm.jpg"
 
 export const links = [
   {
@@ -67,12 +69,20 @@ export const experiencesData = [
     date: "2019 - 2022",
   },
   {
-    title: "Développeur fullstack",
+    title: "Développeur fullstackJs",
     location: "Freelance",
     description:
-      "Je suis maintenant un développeur fullstack travaillant en freelance. Mon stack comprend React, Next.js, TypeScript, Node.js, Nest.js, et Postgresql. Je suis ouvert aux opportunités à temps plein.",
+      "J'ai travaillé comme développeur fullstack freelance, utilisant une stack comprenant React: Next.js, Node.js: Nest.js et PostgreSQL. ",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Développeur fullstackJs",
+    location: "Nuklear",
+    description:
+      "Je suis maintenant un développeur fullstack travaillant chez Nuklear. Mon stack comprend React: Next.js, Node.js: Nest.js, et Hubspot. Je suis ouvert aux opportunités à temps plein.",
+    icon: React.createElement(FaReact),
+    date: "2024 - à présent",
   },
 ] as const;
 
@@ -96,7 +106,14 @@ export const projectsData = [
     description:
       "Développement d'une carte interactive en react.js en montrant les aires protégées de Madagascar et l'intégrant dans le site FAPBM sous wordpress",
     tags: ["React", "Wordpress", "OpenStreetMap"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: fapbm,
+  },
+  {
+    title: "Site de Oké Software",
+    description:
+      "Développement d'une plateforme de gestion pour cabinet comptable : gestion des devis, factures, clients, produits et relances, conforme à la norme Factur-x.",
+    tags: ["React: next.js", "Node: nest.js", "postgresql"],
+    imageUrl: oke,
   },
 ] as const;
 
@@ -109,18 +126,20 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Nest.js",
-  "Java",
-  "vert.x",
+  "Java: Vert.x",
+  "Java: Android",
   "Wordpress",
   "Stripe",
   "Git",
   "Bitbucket",
   "Confluence",
-  "Jira",,
+  "Jira",
+  "Azure DevOps",
   "Agile - scrum",
   "Trello",
   "Express",
   "PostgreSQL",
+  "Hubspot",
   "Linux",
   "Windows",
   "Mac"

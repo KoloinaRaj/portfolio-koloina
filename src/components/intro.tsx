@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Bonjour, Je suis Cathy.</span>Un{" "}
         <span className="font-bold">Développeur fullstack</span> avec{" "}
-        <span className="font-bold">4 années </span> d'expériences. J'aime développer
+        <span className="font-bold">7 années </span> d'expériences. J'aime développer
         <span className="italic"> des sites web et des applications mobiles</span>. 
         {/* Mon objectif est {" "}
         <span className="underline">React (Next.js)</span>. */}
