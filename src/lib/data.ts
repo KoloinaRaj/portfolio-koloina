@@ -80,7 +80,7 @@ export const experiencesData = [
     title: "Développeur fullstack",
     location: "Nuklear",
     description:
-      "Je suis maintenant un développeur fullstack chez Nuklear. Mon stack comprend React: Next.js, Node.js: Nest.js, et Hubspot. Je suis ouvert aux opportunités à temps plein.",
+      "Je suis maintenant un développeur fullstack chez Nuklear. Mon stack comprend React: Next.js, Node.js: Nest.js, et Hubspot. Je suis ouverte aux opportunités à temps plein.",
     icon: React.createElement(FaReact),
     date: "2024 - à présent",
   },
