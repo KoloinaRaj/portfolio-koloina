@@ -36,7 +36,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, Nest.js font partie de mes compétences.{" "}
         </span>
-        Je suis également famillié avec java vert.x et android. Je cherche
+        Je suis également familière avec java vert.x et android. Je cherche
         toujours à apprendre de nouvelles technologies. Je suis actuellement à
         la recherche d'un <span className="font-medium">poste horaire</span> en
         tant que développeur web ou mobile
