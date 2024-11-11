@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/photo.PNG"
-              alt="Cathy portrait"
+              alt="Koloina portrait"
               width="192"
               height="192"
               quality="95"
