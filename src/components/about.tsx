@@ -21,23 +21,23 @@ export default function About() {
       <p className="mb-3">
         Après avoir obtenu un diplôme de baccalauréat,{" "}
         {/* <span className="font-medium">Accounting</span>,  */}
-        j'ai décidé de poursuivre ma passion pour la comptabilités et j'ai
-        obtenu un diplôme de Master en Finances et comptabilités. 
+        j'ai décidé de poursuivre ma passion pour la comptabilité et j'ai
+        obtenu un diplôme de Master en Finances et comptabilité. 
         Je me suis inscrite à divers sites pour continuer à
-        apprendre d'avantage.{" "}
+        apprendre davantage.{" "}
         {/* <span className="font-medium">full-stack web development</span>.{" "} */}
         Je suis également familière avec Sage Koala, Odoo, Excel avancé, Pennylane. Je cherche
         toujours à apprendre de nouveaux défis. Je suis actuellement à
         la recherche d'un <span className="font-medium">poste horaire</span> qui correspond à mes compétences
       </p>
       <p>
-        <span className="italic">En dehors de la Comptabilité et de la finance</span>, J'aime
+       En dehors de la Comptabilité et de la finance, J'aime
         les sports extrèmes, faire des randonnées{" "}
         <span className="font-medium">
-          J'aime aussi apprendre de nouvelles choses, ce qui me permettent toujours d'être polyvalente dans mes réalisations
+          J'aime aussi apprendre de nouvelles choses, ce qui me permettent toujours d'être polyvalente dans mes réalisations.
         </span>
-        Je rafraîchis mes connaissances sur le 
-        <span className="font-medium"> PCG 2005  </span>
+        &nbsp;Je rafraîchis mes connaissances sur le 
+        <span className="font-medium"> PCG 2005. </span>
         Et je travaille à perfectionner mon anglais
       </p>
     </motion.section>

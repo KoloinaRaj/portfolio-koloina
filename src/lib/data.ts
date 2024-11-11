@@ -115,10 +115,9 @@ export const skillsData = [
   "Odoo",
   "Word",
   "Excel",
-  "Power POinte",
+  "Power Pointe",
   "ChatGPT",
   "Agile - scrum",
   "Trello",
   "Windows",
-  "Mac",
 ] as const;

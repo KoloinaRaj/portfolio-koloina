@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Koloina | Portfolio",
-  description: "Koloina est une experte polyvalente dans le domaine de la finances et comptabilités",
+  description: "Koloina est une experte polyvalente dans le domaine de la finances et comptabilité",
 };
 
 export default function RootLayout({
