@@ -37,110 +37,88 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Master en informatique",
+    title: "Stagiaire BNI",
+    location: "BNI Madagascar",
+    description:
+      "Stage dans la direction juridique et contentieux",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018",
+  },
+  {
+    title: "Stagiaire BOA",
+    location: "BOA Madagascar",
+    description:
+      "Stage d'analyse",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019",
+  },
+  {
+    title: "Stagiaire BOA",
+    location: "BOA Madagascar",
+    description:
+      "Stage de perfectionnement",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021",
+  },
+ 
+  {
+    title: "Master en finances et comptabilité",
     location: "",
     description:
-      "Aprés des années d'études, j'ai obtenu mon diplôme de Master en infomatique option génie logiciel",
+      "Aprés des années d'études, j'ai obtenu mon diplôme de Master en finances et comptabilité",
     icon: React.createElement(LuGraduationCap),
-    date: "2017",
+    date: "2022",
   },
   {
-    title: "Développeur Java",
-    location: "Freelance",
+    title: "Data analyst Junior",
+    location: "Cabinet d'externalisation KARLIT",
     description:
-      "Développement d'une application mobile applicative sous android natif.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2018",
-  },
-  {
-    title: "Développeur fullstack et chef de projet",
-    location: "Kapital plus plus",
-    description:
-      "Développement d'une plateforme de paiement mobile. Mes stack sont: ionic, typescript, angular, java",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2019",
-  },
-  {
-    title: "Développeur fullstack",
-    location: "Ibonia",
-    description:
-      "J'ai travaillé en tant que préstataire Ibonia chez Orange Madagascar pendant 1 ans (Angular et java), et 2 ans des les locaux d'ibonia ou j'ai pu apprendre et acquérir des nouvelles connaissances (React.js - next.js et Node.js - Nest.js, Stripe)",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2022",
-  },
-  {
-    title: "Développeur fullstack",
-    location: "Freelance",
-    description:
-      "J'ai travaillé comme développeur fullstack en freelance, utilisant une stack comprenant React: Next.js, Node.js: Nest.js et PostgreSQL. ",
+      "J'ai travaillé comme Data analyst niveau 1 dans la comptabilité",
     icon: React.createElement(FaReact),
-    date: "2022 - 2024",
+    date: "2022 - 2023",
   },
   {
-    title: "Développeur fullstack",
-    location: "Nuklear",
+    title: "Cadre logistique bilingue ang - fr",
+    location: "CSS",
     description:
-      "Je suis maintenant un développeur fullstack chez Nuklear. Mon stack comprend React: Next.js, Node.js: Nest.js, et Hubspot.",
+      "J'étais dans la coordination de la logistique d'un commissionnaire de transport",
     icon: React.createElement(FaReact),
-    date: "2024 - à présent",
+    date: "2023 - 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Facturation chez Orange Madagascar",
+    title: "Conseiller client",
     description:
-      "J'ai travaillé en tant que développeur fullstack pendant 1 ans.",
-    tags: ["Angular", "Java", "Vert.x", "Postresql"],
+      "J'ai travaillé dans le centre de relation client chez ADM Value",
     imageUrl: corpcommentImg,
   },
   {
-    title: "Système de reservation et paiement en ligne",
+    title: "Data analyst Junior",
     description:
-      "Intégration sur le back-office d'un restaurateur (Suisse), intégration d'un module de paiement stripe",
-    tags: ["React.js", "Next.js", "Node.js", "Nest.js", "stripe"],
+      "Cabinet d'externalisation KARLIT",
     imageUrl: rmtdevImg,
   },
   {
-    title: "Site internet FAPBM",
+    title: "Cadre logistique bilingue ang - fr",
     description:
-      "Développement d'une carte interactive en react.js en montrant les aires protégées de Madagascar et l'intégrant dans le site FAPBM sous wordpress",
-    tags: ["React", "Wordpress", "OpenStreetMap"],
+      "J'étais dans la coordination de la logistique d'un commissionnaire de transport",
     imageUrl: fapbm,
   },
-  {
-    title: "Site de Oké Software",
-    description:
-      "Développement d'une plateforme de gestion pour cabinet comptable : gestion des devis, factures, clients, produits et relances, conforme à la norme Factur-x.",
-    tags: ["React: next.js", "Node: nest.js", "postgresql"],
-    imageUrl: oke,
-  },
+  
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Nest.js",
-  "Java: Vert.x",
-  "Java: Android",
-  "Wordpress",
-  "Stripe",
-  "Git",
-  "Bitbucket",
-  "Confluence",
-  "Jira",
-  "Azure DevOps",
+  "Excel avancé",
+  "Sage Koala",
+  "Odoo",
+  "Word",
+  "Excel",
+  "Power POinte",
+  "ChatGPT",
   "Agile - scrum",
   "Trello",
-  "Express",
-  "PostgreSQL",
-  "Hubspot",
-  "Linux",
   "Windows",
-  "Mac"
+  "Mac",
 ] as const;

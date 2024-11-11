@@ -62,10 +62,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Bonjour, Je suis Cathy.</span>Un{" "}
-        <span className="font-bold">Développeur fullstack</span> avec{" "}
-        <span className="font-bold">7 années </span> d'expériences. J'aime développer
-        <span className="italic"> des sites web et des applications mobiles</span>. 
+        <span className="font-bold">Bonjour, Je suis Koloina,</span>&nbsp;Une{" "} polyvalente dans le domaine de &nbsp;
+        <span className="font-bold">la finance et de la comptabilité</span> avec{" "}
+        <span className="font-bold">2 années </span> d'expériences. Je suis polyvalente dans ces domaines
         {/* Mon objectif est {" "}
         <span className="underline">React (Next.js)</span>. */}
       </motion.h1>

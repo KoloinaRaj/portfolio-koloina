@@ -14,11 +14,10 @@ import { useTheme } from "@/src/context/theme-context";
 export default function Experience() {
   const { ref } = useSectionInView("Expériences");
   const { theme } = useTheme();
-
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Expériences</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor="" className="ml-10"> 
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -43,7 +42,7 @@ export default function Experience() {
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
-            >
+            >&nbsp;
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">

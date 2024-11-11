@@ -35,11 +35,11 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Vous pouvez me contacter directement sur{" "} <br/>
-        <a className="underline" href="mailto:cathyliantsoa9@gmail.com">
+        <a className="underline" href="mailto:koloinaraj@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />{" "}
-          <span>cathyliantsoa9@gmail.com</span>
+          <span>koloinaraj@gmail.com</span>
         </a>{" "}
-        ou au <br/><FontAwesomeIcon icon={faPhone} /> +261 32 85 123 57.
+        ou au <br/><FontAwesomeIcon icon={faPhone} /> +261 32 62 261 19.
       </p>
 
       {/* <form

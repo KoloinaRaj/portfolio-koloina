@@ -21,34 +21,23 @@ export default function About() {
       <p className="mb-3">
         Après avoir obtenu un diplôme de baccalauréat,{" "}
         {/* <span className="font-medium">Accounting</span>,  */}
-        j'ai décidé de poursuivre ma passion pour la programmation et j'ai
-        obtenu un diplôme de Master en informatique avec une spécialisation en
-        génie logiciel. Je me suis inscrite à divers sites pour continuer à
+        j'ai décidé de poursuivre ma passion pour la comptabilités et j'ai
+        obtenu un diplôme de Master en Finances et comptabilités. 
+        Je me suis inscrite à divers sites pour continuer à
         apprendre d'avantage.{" "}
         {/* <span className="font-medium">full-stack web development</span>.{" "} */}
-        <span className="italic">
-          Ce que je préfère dans la programmation,{" "}
-        </span>
-        c'est l'aspect résolution de problèmes.{" "}
-        <span className="underline">J'aime </span>
-        le sentiment de finalement comprendre et de trouver une solution à un
-        problème.
-        <span className="font-medium">
-          React, Next.js, Node.js, Nest.js font partie de mes compétences.{" "}
-        </span>
-        Je suis également familière avec java vert.x et android. Je cherche
-        toujours à apprendre de nouvelles technologies. Je suis actuellement à
-        la recherche d'un <span className="font-medium">poste horaire</span> en
-        tant que développeur web ou mobile
+        Je suis également familière avec Sage Koala, Odoo, Excel avancé, Pennylane. Je cherche
+        toujours à apprendre de nouveaux défis. Je suis actuellement à
+        la recherche d'un <span className="font-medium">poste horaire</span> qui correspond à mes compétences
       </p>
       <p>
-        <span className="italic">En dehors de la programmation</span>, J'aime
-        lire des livres et écrire, mais surtout voyager, faire des randonnées{" "}
+        <span className="italic">En dehors de la Comptabilité et de la finance</span>, J'aime
+        les sports extrèmes, faire des randonnées{" "}
         <span className="font-medium">
-          J'aime aussi apprendre de nouvelles choses
+          J'aime aussi apprendre de nouvelles choses, ce qui me permettent toujours d'être polyvalente dans mes réalisations
         </span>
-        . Actuellement, j'étudie{" "}
-        <span className="font-medium"> la sécurité informatique. </span>
+        Je rafraîchis mes connaissances sur le 
+        <span className="font-medium"> PCG 2005  </span>
         Et je travaille à perfectionner mon anglais
       </p>
     </motion.section>
